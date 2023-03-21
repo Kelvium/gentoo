@@ -396,6 +396,7 @@ multilib_src_configure() {
 		vulkan_enable video_cards_d3d12 microsoft-experimental
 		vulkan_enable video_cards_radeonsi amd
 		vulkan_enable video_cards_v3d broadcom
+		vulkan_enable -- swrast
 	fi
 
 	driver_list() {
